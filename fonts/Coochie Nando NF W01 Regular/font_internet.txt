@@ -1,0 +1,8 @@
+@font-face {
+	font-family: "CoochieNandoNFW01-Regular";
+	src: url("//db.onlinewebfonts.com/t/5ea0b3bdeadf9c9bb500bbf5d262dd1d.eot");
+	src: url("//db.onlinewebfonts.com/t/5ea0b3bdeadf9c9bb500bbf5d262dd1d.eot?#iefix") format("embedded-opentype"),
+	url("//db.onlinewebfonts.com/t/5ea0b3bdeadf9c9bb500bbf5d262dd1d.woff2") format("woff2"),
+	url("//db.onlinewebfonts.com/t/5ea0b3bdeadf9c9bb500bbf5d262dd1d.woff") format("woff"),
+	url("//db.onlinewebfonts.com/t/5ea0b3bdeadf9c9bb500bbf5d262dd1d.ttf") format("truetype"),
+	url("//db.onlinewebfonts.com/t/5ea0b3bdeadf9c9bb500bbf5d262dd1d.svg#CoochieNandoNFW01-Regular") format("svg"); }

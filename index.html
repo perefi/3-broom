@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Broom</title>
+    <style type="text/css">
+        @font-face{
+            font-family:'coochie';
+            src:url('fonts/Coochie Nando NF W01 Regular/Coochie Nando NF W01 Regular.eot'),
+                    url('fonts/Coochie Nando NF W01 Regular/Coochie Nando NF W01 Regular.svg'),
+                    url('fonts/Coochie Nando NF W01 Regular/Coochie Nando NF W01 Regular.ttf'),
+                url('fonts/Coochie Nando NF W01 Regular/Coochie Nando NF W01 Regular.woff');
+        }
+            @font-face{
+            font-family:'baskerville';
+            src:url('fonts/Baskerville/BaskervilleMTS.otf');
+        }    
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            color:firebrick;
+            background-color: burlywood;
+        }
+        body>p{
+            position: fixed;
+            font-family: 'coochie';
+            font-size: 20vw;
+        }
+        p[title="b1"]{
+            top: 0;
+            left: 0;
+        }
+        p[title="b2"]{
+            top: 0;
+            right: 0;
+            transform: rotate(180deg);
+        }
+         p[title="m1"]{
+            bottom: 0;
+            right: 0;
+        }
+        p[title="m2"]{
+            bottom: 0;
+            left: 0;
+            transform: rotate(180deg);
+         }
+        p[title="r1"]{
+            top: 20%;
+            left: 20%;
+            font-size: 15vw;
+        }
+        p[title="r2"]{
+            top: 20%;
+            right: 20%;
+            font-size: 15vw;
+            transform: rotate(180deg);
+         }
+         p[title="o1"]{
+            bottom: 20%;
+            right: 20%;
+            font-size: 15vw;
+        }
+        p[title="o2"]{
+            bottom: 20%;
+            left: 20%;
+            font-size: 15vw;
+            transform: rotate(180deg);
+         }
+        p[title="ox"]{
+            top:40%;
+            bottom: 40%;
+            right: 40%;
+            left:40%;
+            
+            font-size: 25vw;
+        }
+        div p{
+            font-family: "baskerville";
+             position: absolute;
+        }
+        div p:first-child{
+            font-size: 30px;
+            left: 0;
+            top: 0;
+        }
+        div p:last-child{
+            right: 0;
+            top: -10px;
+            font-size: 120px;
+        }
+        div[title="6-1"]{
+            position: fixed;
+            width: 100px;
+            height: 100px;
+            top: 0;
+            left: 40%;
+        }
+         div[title="1-1"]{
+            position: fixed;
+            width: 100px;
+            height: 100px;
+            top: 40%;
+            left: 0;
+            transform: scale(-1,-1);
+        }
+        div[title="1-2"]{
+            position: fixed;
+            width: 100px;
+            height: 100px;
+           bottom: 0;
+            left: 40%;
+        }
+         div[title="6-2"]{
+            position: fixed;
+            width: 100px;
+            height: 100px;
+            top: 40%;
+            right: 0;
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+    <p title="b1">B</p>
+    <p title="b2">B</p>
+    <p title="m1">M</p>
+    <p title="m2">M</p>
+    <p title="r1">R</p>
+    <p title="r2">R</p>
+    <p title="o1">O</p>
+    <p title="o2">O</p>
+    <p title="ox">O</p>
+    
+    <div title="6-1">
+        <p>vol.</p>
+        <p>6</p>
+    </div>
+    
+    <div title="1-1">
+        <p>vol.</p>
+        <p>1</p>
+    </div>
+    <div title="6-2">
+        <p>vol.</p>
+        <p>6</p>
+    </div>
+    
+    <div title="1-2">
+        <p>vol.</p>
+        <p>1</p>
+    </div>
+</body>
+</html>
